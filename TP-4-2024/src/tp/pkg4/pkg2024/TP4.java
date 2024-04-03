@@ -52,9 +52,11 @@ public class TP4 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         jLabel1.setText("Trabajo Practico Numero 4");
 
+        jLabel2.setFont(new java.awt.Font("Dialog", 3, 18)); // NOI18N
         jLabel2.setText("Celsius °");
 
         jbuton.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jbuton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tp/pkg4/pkg2024/iconojava (2).jpg"))); // NOI18N
         jbuton.setText("Convertir");
         jbuton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
